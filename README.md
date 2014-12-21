@@ -6,5 +6,7 @@ datasciencecoursera-Getting-and-Cleaning-Week_3
 codebook.md = explanation of the script "run_analysis.R"
 
 getdata-projectfiles-UCI HAR Dataset = the files to process
+
 run_analysis.R = list of the commands to perform a tidy file for the study 
+
 tidy_data.csv = the important values of the study in a completly clear table
