@@ -1,0 +1,28 @@
+The goal is to merge a test and a train file, and to make it understandable.
+
+#Data Set Information:
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
+  
+more informations here : http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+  
+test = the values of the test file
+test_act = the test activities
+test_sub = test subject
+
+train = the values of the train file
+train_act = the test activities
+train_sub = train subject
+
+act_label = label of the activities
+features = names of the test and train columns
+
+test_full = test datas combined with fitted labels
+train_full = train datas combined with fitted labels
+full = merge of all the datas
+
+full_mean = means of the datas
+full_sd = SD of the datas
+
+tidy_data = tidies datas from the study
