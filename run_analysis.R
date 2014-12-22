@@ -36,4 +36,4 @@ full_sd<-sapply(full,sd,na.rm=TRUE)
 # 5.Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 tidy_independant <- data.table(full)
 tidy_data <- tidy_independant[,lapply(.SD,mean),by="Activity,Subject"]
-write.table(tidy,file="tidy.csv",sep=",",row.names = FALSE)
+write.table(tidy_data,file="tidy_data.txt",sep=",",row.names = FALSE)
